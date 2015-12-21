@@ -1,6 +1,6 @@
 ---
 title: "Data Scientist’s Toolbox Course Notes"
-author: "Xing Su"
+author: "Abhishek Anand"
 output:
   pdf_document:
     toc: yes
@@ -38,8 +38,15 @@ $\pagebreak$
 * `date` = print current date
 
 
+## Git Cofig :
 
-## GitHub
+* `git config --list `
+* `git config --global user.name "Abhishek Anand"  `
+* ` git config --global user.email "exampl@example.com"  `
+* ` git config --list  `
+
+
+## GitHub :
 
 * **Workflow**
     1. make edits in workspace
@@ -49,7 +56,7 @@ $\pagebreak$
 * `git add .` = add all new files to be tracked
 * `git add -u` = updates tracking for files that are renamed or deleted
 * `git add -A` = both of the above
-    * ***Note**: `add` is performed before committing *
+    * ***Note***: `add` is performed before committing *
 * `git commit -m "message"` = commit the changes you want to be saved to the local copy
 * `git checkout -b branchname` = create new branch
 * `git branch` = tells you what branch you are on
@@ -60,6 +67,7 @@ $\pagebreak$
 
 
 ## Markdown
+* Extension  `.md` denotes markdown file
 
 * `##` = signifies secondary heading (bold big font)
 * `###` = signifies tertiary heading (slightly smaller font than secondary, not bold)
@@ -67,8 +75,10 @@ $\pagebreak$
 
 
 
+
 ## R Packages
 
+* To Choose R Mirror  'chooseCRANmirror()`
 * Primary location for R packages $\rightarrow$ CRAN
 * `available.packages()` = all packages available
 * `head(rownames(a),3)` = returns first three names of a
@@ -77,7 +87,8 @@ $\pagebreak$
 * Bioconductor Packages:
     *  `source("https://bioconductor.org/biocLite.R")`
     *  `biocLite()` = install bioconductor packages
-* `library(packagename)` = load package
+    *  `biocLite(c("GenomicFeatures", "AnnotationDbi"))` = = install multiple package
+* `library(packagename)` = load package - Package not in quoates
 * `search()` = see all functions in package after loading
 
 
@@ -119,4 +130,3 @@ $\pagebreak$
 * **Data dredging** = use data to fit hypothesis
 * **Good experiments** = have replication, measure variability, generalize problem, transparent
 * Prediction is not inference, and be ware of data dredging
-
