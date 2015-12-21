@@ -40,10 +40,10 @@ $\pagebreak$
 
 ## Git Cofig :
 
-* `git config --list `
-* `git config --global user.name "Abhishek Anand"  `
-* ` git config --global user.email "exampl@example.com"  `
-* ` git config --list  `
+* `git config --list`
+* `git config --global user.name "Abhishek Anand" `
+* ` git config --global user.email "exampl@example.com"`
+* ` git config --list`
 
 
 ## GitHub :
